@@ -7,9 +7,9 @@ use anyhow::{Context, Ok, Result};
 use std::collections::HashMap;
 
 // This line is automatically updated.
-// Last Modified: 2022-08-29 17:07:50 UTC+0000
-// https://github.com/NixOS/nixpkgs/commit/0e304ff0d9db453a4b230e9386418fd974d5804a
-pub const NIXPKGS_ARCHIVE: &str = "0e304ff0d9db453a4b230e9386418fd974d5804a";
+// Last Modified: 2026-11-24 03:06:37 UTC+0000
+// https://github.com/NixOS/nixpkgs/commit/619c39f6eac5d1ed6b8f073a9414baf7034b2356
+const NIXPKGS_ARCHIVE: &str = "619c39f6eac5d1ed6b8f073a9414baf7034b2356";
 
 #[derive(Clone, Default, Debug)]
 pub struct GeneratePlanOptions {
